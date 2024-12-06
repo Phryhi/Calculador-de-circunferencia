@@ -1,0 +1,67 @@
+body{
+    height: 800px;
+    width: 800px;
+    margin: 0;
+}
+.tudo{
+    margin-top:10%;
+    margin-left:50%;
+    height:67%;
+    width:90%;
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(205, 255, 248), rgb(145, 181, 239));
+    border-radius:15px;
+    border-style:groove;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.tudo h1{
+    text-transform: uppercase;
+    margin-left: 5%;
+    padding-top:2%;
+    margin-bottom: 10%;
+}
+.tudo h3{
+    margin-left:38%;
+    font-size: 22px;
+    float:top;
+}
+.tudo label{
+    margin-left:28%;
+    margin-right: 4%;
+    font-size: 20px;
+}
+.tudo input{
+    border-radius: 5px;
+    height: 20px
+}
+.tudo button{
+    margin-top:5%;
+    margin-bottom:10%;
+    margin-left:40%;
+    height:45px;
+    width:60px;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.tudo button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.resultado h2{
+    display:inline;
+}
+.resultado #meuResultado{
+    margin-top:5%;
+    margin-left:5%;
+    color:rgb(193, 4, 4);
+}
+.resultado #h2-1{
+    margin-top:5%;
+    margin-left:24%;
+}
